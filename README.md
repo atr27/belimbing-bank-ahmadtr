@@ -9,23 +9,23 @@ Project ini dibuat untuk memenuhi **Full Stack Engineer Test** dari Belimbing.ai
 Aplikasi ini mencakup fitur-fitur berikut sesuai dokumen kebutuhan:
 
 1.  **Manajemen Data (CRUD):**
-    * [cite_start]**Customer:** Create, Edit, Delete data nasabah[cite: 25].
-    * [cite_start]**Account:** Pembukaan rekening dengan validasi saldo awal[cite: 29].
-    * [cite_start]**Deposito Type:** Pengaturan tipe deposito (Bronze, Silver, Gold) dengan persentase bunga berbeda [cite: 33, 42-44].
+    * **Customer:** Create, Edit, Delete data nasabah.
+    * **Account:** Pembukaan rekening dengan validasi saldo awal.
+    * **Deposito Type:** Pengaturan tipe deposito (Bronze, Silver, Gold) dengan persentase bunga berbeda.
 
 2.  **Logika Bisnis & Perbankan:**
-    * [cite_start]Satu nasabah dapat memiliki banyak akun[cite: 47].
-    * [cite_start]Satu akun hanya terikat pada satu tipe deposito[cite: 49].
-    * [cite_start]Validasi input tanggal deposit dan withdraw[cite: 57].
+    * Satu nasabah dapat memiliki banyak akun.
+    * Satu akun hanya terikat pada satu tipe deposito.
+    * Validasi input tanggal deposit dan withdraw.
 
 3.  **Kalkulasi Bunga Otomatis (Core Feature):**
     * Menghitung **Ending Balance** saat nasabah melakukan penarikan (Withdraw).
-    * [cite_start]Rumus: `Ending Balance = Starting Balance + (Starting Balance * Durasi Bulan * Monthly Return)` [cite: 58-59].
+    * Rumus: `Ending Balance = Starting Balance + (Starting Balance * Durasi Bulan * Monthly Return)`.
     * Menangani perhitungan durasi bulan secara dinamis berdasarkan tanggal transaksi.
 
 4.  **Technical Excellence:**
-    * [cite_start]**MVC Architecture:** Menggunakan konsep Model-View-Controller yang ketat pada Backend dan Frontend[cite: 18].
-    * [cite_start]**Unit Testing:** Dilengkapi dengan Automated Test (PHPUnit) untuk memvalidasi rumus bunga dan edge cases[cite: 16].
+    * **MVC Architecture:** Menggunakan konsep Model-View-Controller yang ketat pada Backend dan Frontend.
+    * **Unit Testing:** Dilengkapi dengan Automated Test (PHPUnit) untuk memvalidasi rumus bunga dan edge cases.
     * **Database Seeding:** Data dummy otomatis untuk memudahkan pengujian.
 
 ---
